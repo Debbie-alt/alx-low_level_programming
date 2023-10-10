@@ -1,4 +1,14 @@
 #include <stdio.h>
+#include <stddef.h>
+/**
+ * print_size_of_type -Prints the size
+ * @type: The type of the print size
+ */
+void print_size_of_type(const char *type)
+{
+printf("Size of %s: %zu bytes\n", type, sizeof(type));
+}
+
 /**
  * main - program that prints size
  * Return: 0 (success)
