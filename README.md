@@ -1,1 +1,1 @@
-static libraries
+data structures
